@@ -5,5 +5,5 @@ sudo: false # only for faster builds
 compiler:
 - gcc
 script:
-- gcc -o test hello.c 
+- gcc -o test calculator.c 
 - ./test
